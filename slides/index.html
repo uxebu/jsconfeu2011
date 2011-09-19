@@ -24,13 +24,28 @@
   <style>
     /* Your individual styles here, or just use inline styles if that’s
        what you want. */
-    
-    
+
+    .slides.template-uxebu h1,
+    .slides.template-uxebu h2, 
+    .slides.template-uxebu h3,
+    .slides.template-uxebu code {
+      color: #fff;
+    }
+
+    .slides.template-uxebu > article:not(.biglogo) {
+      /*background: url(images/google-logo-small.png) 710px 625px no-repeat;  */
+      background-color: black;
+      color: white;
+    }
+
+    .slides.template-uxebu article.biglogo {
+      background: black url(images/uxebu-logo-white.png) 50% 50% no-repeat;
+    }
   </style>
 
   <body style='display: none'>
 
-    <section class='slides layout-regular template-default'>
+    <section class='slides layout-regular template-uxebu'>
       
       <!-- Your slides (<article>s) go here. Delete or comment out the
            slides below. -->
@@ -42,14 +57,14 @@
 
       <article>
         <h1>
-          Title Goes Here Up
+          INSERT COIN
           <br>
-          To Two Lines
+          RECEIVE TITLE
         </h1>
         <p>
-          Sergey Brin
+          Nikolai Onken, Tobias Schneider &amp; Stephan Seidt
           <br>
-          May 10, 2011
+          Oct <code>Math.round(Math.random()+1)</code>, 2011
         </p>
       </article>
       
